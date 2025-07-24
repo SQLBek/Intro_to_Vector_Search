@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Demo Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.150.131:andy_local">
+          <Created>2025-07-22T19:25:53.6844256-04:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.150.131</Server>
+          <UserName>andy_local</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0_Reset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>0_Reset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1_Quick Tour.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>1_Quick Tour.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_KNN Searching.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>2_KNN Searching.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2a_KNN Searching.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>2a_KNN Searching.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_ANN Searching.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>3_ANN Searching.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_End to End Searching.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>4_End to End Searching.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_sp_search_recipes_ann.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>z_sp_search_recipes_ann.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
